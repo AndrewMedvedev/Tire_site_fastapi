@@ -13,6 +13,7 @@ class Winter(Base):
     pattern_name: Mapped[str_nullable]
     technical_specifications: Mapped[str_nullable]
     image: Mapped[str_array]
+    availability: Mapped[str_nullable]
     
     
     def __str__(self):
@@ -36,6 +37,7 @@ class Summer(Base):
     pattern_name: Mapped[str_nullable]
     technical_specifications: Mapped[str_nullable]
     image: Mapped[str_array]
+    availability: Mapped[str_nullable]
     
     
     def __str__(self):
